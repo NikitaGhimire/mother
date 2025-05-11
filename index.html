@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Mother’s Day</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 2rem;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: white;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: #ffe4e1;
+      animation: fadeIn 1.5s ease-out 0.5s backwards;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .flower {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease-out 1s backwards;
+      transition: transform 0.3s ease;
+    }
+
+    .flower:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      max-width: 600px;
+      margin: 1rem auto;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      animation: fadeIn 1.5s ease-out 1.5s backwards;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ff69b4;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-top: 1rem;
+      animation: fadeIn 1.5s ease-out 2s backwards;
+    }
+
+    .btn:hover {
+      background-color: #ff1493;
+      animation: heartbeat 1s infinite;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    /* Add animation keyframes */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Happy Mother’s Day! 💖</h1>
+    
+  </header>
+
+  <div class="content">
+    <!-- 🖼️ Here’s where we’ll add your photo -->
+    <img src="dfam.jpg" alt="Mom Smiling" class="flower"/>
+
+    <div class="message">
+        Motherhood is one of the most beautiful things about you. 
+        You are strength wrapped in kindness, patience wrapped in love. I’ve seen the way you pour love into every little thing you do for your children and your grandchildren.
+        The way you care, nurture, and show up — even on the hard days — is nothing short of inspiring.
+        Your heart holds so much gentle power, and your children are so lucky to grow in the light of your love.
+        
+        I hope today reminds you of just how amazing you are — not just as a mom, but as the incredible person you’ve always been. 💐💛
+    </div>
+
+    <a href="#" class="btn">Celebrating you</a>
+  </div>
+
+  <footer>
+    🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷
+  </footer>
+</body>
+</html>
